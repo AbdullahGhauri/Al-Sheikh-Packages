@@ -1,0 +1,109 @@
+.sticky {
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    z-index: 99 !important;
+}
+.navbar{
+    background-color: darkcyan	 !important;
+}
+.nav-link,.navbar-brand{
+    color: white !important;
+    font-weight: bold !important;
+}
+.dropdown-item:hover{
+    background-color: darkcyan	 !important;
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: white !important;
+    color: darkcyan !important;
+}
+.fa-shopping-cart,.fa-user{
+    font-size: 30px !important;
+    color: white !important;
+}
+.fa-map-marker,.fa-phone,.fa-envelope{
+    font-size: 35px !important;
+    color: darkcyan !important;
+}
+.carousel-caption h5,.contactus p,.contactus label{
+    color: darkcyan !important;
+}
+.card1,.card2,.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    width: 300px;
+    height: 75px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    .col{
+        width: 100%;
+    }
+  }
+.card1 h3,.card2 h3,.card3 h3{
+    color: darkcyan;
+}
+.fa-truck,.fa-thumbs-up,.fa-headphones{
+    font-size: 45px !important;
+    margin-right: 10px;
+    color: darkcyan;
+}
+.mainCard{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.newArrival{
+    margin-top: 35px;
+}
+.row{
+}
+.card-text{
+    font-weight: bold;
+}
+.card-body h5,.card-body p{
+    color:  darkcyan !important;
+}
+.card{
+    width: 250px !important;
+    height: auto !important;
+    margin-bottom: 10px;
+}
+.btn{
+ background-color: darkcyan !important;
+ color: white !important; 
+ width: 200px;  
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100% !important;
+    }
+  }
+.heading h2{
+    color: darkcyan !important;
+    text-align: center !important;
+}
+.container{
+    margin-top: 35px !important;
+}
+.footer{
+    background-color: darkcyan;
+    color: white;
+}
+.aboutus p,.aboutus h2{
+    color: darkcyan !important;
+    text-align: center;
+}
+.aboutus h2{
+    margin-top: 17%;
+}
